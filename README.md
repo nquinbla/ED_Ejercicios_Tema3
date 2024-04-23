@@ -1,6 +1,20 @@
 # ESTRUCTURA DE DATOS: EJERCICIOS TEMA 3
 Ejercicios de la unidad 3 de estructura de datos por Nerea Quintanilla Blanco
 
+LINK -> https://github.com/nquinbla/ED_Ejercicios_Tema3.git
+
+---------------------------------------------------------------
+
+[LINK 1] -> https://github.com/nquinbla/ED_Ejercicios_Tema1.git
+
+[LINK 2] -> https://github.com/nquinbla/ED_Ejercicios_Tema2.git
+
+[LINK 5] -> https://github.com/nquinbla/ED_Ejercicios_Tema5.git
+
+[LINK 6] -> https://github.com/nquinbla/ED_Ejercicios_Tema6.git
+
+----------------------------------------------------------------
+
 ## (5 minutos) 
 Escribe un programa que cree una clase para representar un objeto
 punto en tres dimensiones. Proporcionar un constructor que inicialice los
