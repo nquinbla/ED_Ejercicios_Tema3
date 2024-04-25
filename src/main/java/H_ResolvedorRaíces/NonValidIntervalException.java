@@ -9,8 +9,8 @@ public class NonValidIntervalException extends Exception {
     private float start, end;
     private ErrorType error;
 
-    NonValidIntervalException(FunctionInterface function, float start,
-                              float end, ErrorType error) {
+    public NonValidIntervalException(FunctionInterface function, float start,
+                                     float end, ErrorType error) {
         this.function = function;
         this.start = start;
         this.end = end;
