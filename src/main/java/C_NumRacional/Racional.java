@@ -1,4 +1,4 @@
-package NumRacional;
+package C_NumRacional;
 
 public class Racional {
     private int numerador;
