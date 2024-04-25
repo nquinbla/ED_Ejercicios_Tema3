@@ -1,9 +1,9 @@
 package G_GuerraMarcianos;
 
 public class Marciano {
-    private int salud = 100;
+    private int salud = 200;
 
-    public void atacar(Terricola nave) {
+    public void atacar(Terrícola nave) {
         nave.recibirDaño(10);
     }
 
