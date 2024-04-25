@@ -65,7 +65,7 @@ public class Persona {
 
     private String generaDNI() {return String.format("%08d", (int) (Math.random() * 100000000));}
 
-    // Métodos set para cada parámetro, excepto DNI
+    public String getNombre() {return nombre;}
     public void setNombre(String nombre) {this.nombre = nombre;}
 
     public void setEdad(int edad) {this.edad = edad;}
