@@ -5,8 +5,16 @@ import java.util.Scanner;
 public class Main_C {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Racional r1 = new Racional(1, 2);
-        Racional r2 = new Racional(2, 3);
+
+        System.out.println("Introduce el numerador y denominador del primer número racional:");
+        int numerador1 = scanner.nextInt();
+        int denominador1 = scanner.nextInt();
+        Racional r1 = new Racional(numerador1, denominador1);
+
+        System.out.println("Introduce el numerador y denominador del segundo número racional:");
+        int numerador2 = scanner.nextInt();
+        int denominador2 = scanner.nextInt();
+        Racional r2 = new Racional(numerador2, denominador2);
 
         while (true) {
             System.out.println("1. Sumar");
